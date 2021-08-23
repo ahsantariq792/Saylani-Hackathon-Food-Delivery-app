@@ -1,0 +1,136 @@
+.button {
+    padding-top: 15%;
+    padding: 10px auto;
+    flex-direction: column;
+}
+
+.main {
+    background-image: url("./images/background.jpg");
+    background-size: cover;
+    /* background-position: center; */
+    height: 150vh;
+    width: 100%;
+}
+
+#form {
+    border-radius: 10px;
+    width: 40%;
+    background-color: white;
+    margin-left: 30%;
+    margin-top: 1%;
+    padding: 3%;
+    position: absolute;
+    top: 0%;
+}
+
+label {
+    font-weight: bolder;
+}
+
+.btn-signup {
+    width: 90%;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #49c1a2;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    position: relative;
+    left: 10%;
+}
+
+h1 {
+    color: black;
+    margin-left: 10%;
+    margin-bottom: 0%;
+    font-style: italic;
+}
+
+
+button {
+    font-size: 90%;
+}
+
+p {
+    color: white;
+}
+
+#changeBtn {
+    border: none;
+    outline: none;
+    /* background-color: blue; */
+    color: red;
+    font-size: 16px;
+    margin-left: 2%;
+    border-radius: 10px;
+    height: 7vh;
+    width: 30%;
+
+}
+
+input{
+    border-radius: 20px;
+}
+
+
+body {
+    margin: 0%;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.bgimage {
+    position: relative;
+    height: 160vh;
+    overflow: hidden;
+    background: url(images/background1.jpg) no-repeat center;
+    background-size: cover;
+    margin-top: 0%;
+}
+
+.container {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.abcd {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    border: 8px ridge white;
+    border-style: ridge;
+    padding: 10px;
+    margin-bottom: 5%;
+
+}
+
+.btn {
+    color: white;
+    font-size: 24px;
+    background-color: red;
+    height: 80px;
+    width: 300px;
+    margin-top: 2%;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s all;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+.btn:hover {
+    opacity: 0.9;
+    background-color: rgb(250, 102, 64);
+
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Dish</title>
+
+
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+            apiKey: "AIzaSyBI30hfN_G1S4gcffrxj1pQTJElWifeNZI",
+            authDomain: "foodapp-18fe0.firebaseapp.com",
+            projectId: "foodapp-18fe0",
+            storageBucket: "foodapp-18fe0.appspot.com",
+            messagingSenderId: "246962011017",
+            appId: "1:246962011017:web:087f6fcc752ada0ef2ff58",
+            measurementId: "G-VDR69SEE9T"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+
+
+    <script src="app.js"></script>
+
+    <link rel="stylesheet" href="addDishes.css">
+</head>
+
+<body onload="restaurantOnNav()">
+    <nav>
+        <ul>
+            <li>
+                <a href="restaurantHome.html">
+                    <h3>Home</h3>
+                </a>
+            </li>
+            <li>
+                <a href="addDishes.html">
+                    <h3>Add Dish</h3>
+                </a>
+            </li>
+            <li>
+                <a href="orders.html">
+                    <h3>Orders</h3>
+                </a>
+            </li>
+            <li id="nameLi">
+                <h3 id="name"></h3>
+                <br>
+                <button onclick="signOut()" id="signOut">Sign Out</button>
+            </li>
+        </ul>
+
+    </nav>
+    <div class="main">
+        <h1>Add New Dish</h1>
+        <br>
+        <br>
+        <div>
+            <label class="form-label">Dish Name</label>
+            <br><br>
+            <input type="email" class="form-control" id="dishName" placeholder="Enter Dish Name">
+        </div>
+        <br>
+        <div>
+            <label class="form-label">Enter Dish Price</label>
+            <br><br>
+            <input type="text" class="form-control" id="dishPrice" placeholder="Enter Dish Price">
+        </div>
+        <br><br>
+        <div>
+            <input type="file" id="dishImage">
+        </div>
+        <br>
+        <div>
+            <label class="form-label">Delivery Type:</label>
+            <br>
+            <select id="deliveryType">
+                <option value="Free">Free</option>
+                <option value="Paid">Paid</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label>Choose a category:</label>
+            <br>
+            <select id="categories">
+                <option value="BBQ">BBQ</option>
+                <option value="fastFood">Fast Food</option>
+                <option value="Chinese">Chinese</option>
+                <option value="Desi">Desi</option>
+            </select>
+        </div>
+        <br>
+
+        <button type="button" class="btn-addDish" onclick="addDish()">Add Dish</button>
+        <br><br>
+        <script src="app.js"></script>
+</body>
+
+</html>

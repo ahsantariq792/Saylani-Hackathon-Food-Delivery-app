@@ -1,0 +1,130 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+
+    /* background-image: url('https://www.logogrand.com/news/wp-content/uploads/2020/08/Restaurant-feasibility-study-TRG-Restaurant-Consultant.jpg'); */
+    /* background: linear-gradient(0deg, rgb(73, 71, 71) 43%,black 52%); */
+    /* background-color: black; */
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+}
+
+nav {
+    background-color: grey;
+    font-size: 16px;
+    font-style: italic;
+    color: black;
+    height: 8vh;
+    top: 0;
+    padding: 0px;
+}
+
+h3{
+    color: black;
+    font-style: italic;
+
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    padding-left: 20px;
+
+}
+
+ul li {
+    list-style: none;
+    padding: 20px 50px 0px 0px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li a:hover {
+    color: white;
+}
+
+#nameLi {
+    position: absolute;
+    right: 10px;
+    padding: 0;
+}
+
+#signOut {
+    border: none;
+    background-color: inherit;
+    font-size: 16px;
+    color: white;
+    margin-right: 4px;
+    margin-top: 20%;
+    background-color: red;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+#signOut:hover {
+    color: black;
+    background-color: white;
+}
+
+.cards {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card {
+    border: black 5px solid;
+    background-color: white;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    font-weight: bolder;
+}
+
+.card #foodImg {
+    width: 100%;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+.card a:hover {
+    color: black;
+}
+
+#foodImg {
+    height: 70%;
+}
+
+.head {
+    text-align: center;
+}
+
+#del {
+    width: 10%;
+}
+
+#del:hover {
+    cursor: pointer;
+}
+
+h1 {
+    color: black;
+    font-family: cursive;
+    margin-top: 5%;
+}

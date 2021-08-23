@@ -1,0 +1,168 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    /* background-image: url(../images/background.jpg); */
+    /* background-image: url('https://www.logogrand.com/news/wp-content/uploads/2020/08/Restaurant-feasibility-study-TRG-Restaurant-Consultant.jpg'); */
+    /* background-color: black; */
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+
+    
+}
+
+nav {
+    background-color: grey;
+    height: 8vh;
+    top: 0;
+    padding: 0px;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+
+}
+
+ul li {
+    list-style: none;
+    padding: 20px 50px 0px 0px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li a:hover {
+    color: white;
+}
+
+#nameLi {
+    position: absolute;
+    right: 10px;
+    padding: 0;
+}
+
+#signOut {
+    border: none;
+    background-color: inherit;
+    font-size: 16px;
+    color: white;
+    margin-right: 4px;
+    margin-top: 0%;
+    background-color: red;
+}
+
+#signOut:hover {
+    cursor: pointer;
+    border: none;
+    background-color: inherit;
+    font-size: 18px;
+    color: red;
+    margin-right: 4px;
+    margin-top: 0%;
+}
+
+#table {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    margin: 20px;
+    border: 2px solid black;
+    /* background-color: black; */
+    /* color: black; */
+    /* border-collapse: collapse; */
+    width: 50%;
+
+}
+
+tr,
+th,
+td {
+    /* border: 2px solid yellowgreen; */
+    border-collapse: collapse;
+    padding: 20px;
+    text-align: center;
+}
+
+th{
+    border: 2px black solid;
+    background-color: rgb(196, 181, 181,0.5);
+    color: honeydew;
+}
+
+th {
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#cancel {
+    color: red;
+    font: inherit;
+    background-color: inherit;
+    border: none;
+}
+
+#cancel:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.head {
+    /* background-color: black; */
+    color: black !important;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+
+
+}
+
+.btn {
+    border: none;
+    /* border: 2px yellowgreen solid; */
+    /* border-collapse: collapse; */
+    background-color: inherit;
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.btn:hover {
+    color: white;
+    cursor: pointer;
+    background-color: red;
+    border-radius: 10px;
+
+}
+
+.btn2 {
+    border: none;
+    border: none;
+    border-collapse: collapse;
+    background-color: inherit;
+    color: red;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.btn2:hover {
+    color: white;
+    cursor: pointer;
+    background-color: red;
+}
